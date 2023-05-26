@@ -35,6 +35,10 @@
    ```
    ./edgar dec 'encrypted-text' -key enc_key.txt
    ```
+- Decrypt the contents of a file:
+   ```
+   ./edgar dec -f encryptedText.txt -key enc_key.txt > decryptedText.txt
+   ```
 
 Make sure to replace `enc_key.txt` with your own encryption key file.
 
